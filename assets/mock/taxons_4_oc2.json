@@ -1,0 +1,11 @@
+{
+  "taxons": [
+    {"id": "t1", "name": "Vegetables"},
+    {"id": "t2", "name": "Fruits"},
+    {"id": "t3", "name": "Bakery"},
+    {"id": "t4", "name": "Dairy & Eggs"},
+    {"id": "t5", "name": "Pantry"},
+    {"id": "t6", "name": "Meat & Seafood"},
+    {"id": "t7", "name": "Beverages"}
+  ]
+}

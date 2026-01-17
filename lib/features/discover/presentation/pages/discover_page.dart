@@ -118,7 +118,7 @@ class _DiscoverPageState extends rp.ConsumerState<DiscoverPage> with SingleTicke
         
         const SizedBox(height: 8),
         
-        // Tab bar - Google style
+        // Tab bar - Google style with smooth animation
         Container(
           margin: const EdgeInsets.symmetric(horizontal: 16),
           decoration: BoxDecoration(
@@ -130,6 +130,13 @@ class _DiscoverPageState extends rp.ConsumerState<DiscoverPage> with SingleTicke
             indicator: BoxDecoration(
               color: scheme.primaryContainer,
               borderRadius: BorderRadius.circular(10),
+              boxShadow: [
+                BoxShadow(
+                  color: scheme.primary.withOpacity(0.2),
+                  blurRadius: 8,
+                  offset: const Offset(0, 2),
+                ),
+              ],
             ),
             indicatorSize: TabBarIndicatorSize.tab,
             indicatorPadding: const EdgeInsets.all(4),
@@ -138,6 +145,8 @@ class _DiscoverPageState extends rp.ConsumerState<DiscoverPage> with SingleTicke
             unselectedLabelColor: scheme.onSurfaceVariant,
             labelStyle: textTheme.labelLarge?.copyWith(fontWeight: FontWeight.w600),
             unselectedLabelStyle: textTheme.labelLarge,
+            splashFactory: InkSparkle.splashFactory,
+            overlayColor: WidgetStateProperty.all(scheme.primary.withOpacity(0.08)),
             tabs: const [
               Tab(text: 'Pharmacies'),
               Tab(text: 'Suppliers'),

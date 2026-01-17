@@ -15,6 +15,7 @@ import 'package:sellingapp/features/account/presentation/pages/profile_page.dart
 import 'package:sellingapp/features/account/presentation/pages/settings_page.dart';
 import 'package:sellingapp/nav_shell.dart';
 import 'package:sellingapp/features/map/presentation/pages/map_page.dart';
+import 'package:sellingapp/widgets/page_transitions.dart';
 
 /// GoRouter configuration for app navigation
 ///
@@ -89,7 +90,7 @@ class AppRouter {
         name: 'shopfront',
         pageBuilder: (context, state) {
           final id = state.pathParameters['id']!;
-          return NoTransitionPage(child: ShopfrontPage(enterpriseId: id));
+          return SharedAxisTransition(child: ShopfrontPage(enterpriseId: id));
         },
       ),
       GoRoute(
@@ -97,7 +98,7 @@ class AppRouter {
         name: 'producer',
         pageBuilder: (context, state) {
           final id = state.pathParameters['id']!;
-          return NoTransitionPage(child: ProducerDetailPage(id: id));
+          return SharedAxisTransition(child: ProducerDetailPage(id: id));
         },
       ),
       GoRoute(
@@ -105,18 +106,18 @@ class AppRouter {
         name: 'product',
         pageBuilder: (context, state) {
           final id = state.pathParameters['id']!;
-          return NoTransitionPage(child: ProductDetailPage(productId: id));
+          return SharedAxisTransition(child: ProductDetailPage(productId: id));
         },
       ),
       GoRoute(
         path: AppRoutes.checkout,
         name: 'checkout',
-        pageBuilder: (context, state) => const NoTransitionPage(child: CheckoutFlowPage()),
+        pageBuilder: (context, state) => BottomSheetTransition(child: const CheckoutFlowPage()),
       ),
       GoRoute(
         path: AppRoutes.confirmation,
         name: 'confirmation',
-        pageBuilder: (context, state) => const NoTransitionPage(child: OrderConfirmationPage()),
+        pageBuilder: (context, state) => FadeThroughTransition(child: const OrderConfirmationPage()),
       ),
     ],
   );

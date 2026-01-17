@@ -235,7 +235,7 @@ ThemeData get lightTheme => ThemeData(
     ),
   ),
   
-  tabBarTheme: TabBarTheme(
+  tabBarTheme: TabBarThemeData(
     indicatorColor: LightColors.primary,
     labelColor: LightColors.primary,
     unselectedLabelColor: LightColors.onSurfaceVariant,
@@ -353,7 +353,7 @@ ThemeData get darkTheme => ThemeData(
     ),
   ),
   
-  tabBarTheme: TabBarTheme(
+  tabBarTheme: TabBarThemeData(
     indicatorColor: DarkColors.primary,
     labelColor: DarkColors.primary,
     unselectedLabelColor: DarkColors.onSurfaceVariant,

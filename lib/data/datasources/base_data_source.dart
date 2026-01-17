@@ -9,8 +9,11 @@ abstract class BaseDataSource {
   Future<List<Enterprise>> listShops({String? query});
   Future<List<Enterprise>> listProducers({String? query});
 
-  // Shopfront
+  // Shopfront (for shops with numeric IDs like "1", "2", "3")
   Future<Enterprise> getShopfront(String enterpriseId);
+  
+  // Producer detail (for producers with IDs like "p1", "p2", "p3")
+  Future<Enterprise> getProducer(String producerId);
   Future<List<OrderCycle>> listOrderCycles(String enterpriseId);
   Future<void> selectOrderCycle(String orderCycleId);
   Future<OrderCycle?> getCurrentOrderCycle();

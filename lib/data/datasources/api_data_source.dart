@@ -31,6 +31,13 @@ class ApiDataSource implements BaseDataSource {
   }
 
   @override
+  Future<Enterprise> getProducer(String producerId) async {
+    // In API mode, producers might use the same endpoint or a dedicated one
+    final res = await _dio.get('/api/v0/producers/$producerId.json');
+    return Enterprise.fromJson(res.data as Map<String, dynamic>);
+  }
+
+  @override
   Future<List<OrderCycle>> listOrderCycles(String enterpriseId) async {
     // Not specified: order cycles list endpoint by enterprise is usually embedded in shopfront
     // For now return empty, UI will handle gracefully

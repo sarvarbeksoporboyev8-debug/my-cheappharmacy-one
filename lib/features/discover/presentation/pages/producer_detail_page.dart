@@ -6,7 +6,8 @@ import 'package:sellingapp/models/enterprise.dart';
 import 'package:sellingapp/models/product.dart';
 import 'package:sellingapp/theme.dart';
 
-final _producerProvider = rp.FutureProvider.family<Enterprise, String>((ref, id) async => ref.read(shopRepositoryProvider).getShopfront(id));
+// Use getProducer for producer IDs (p1, p2, etc.) instead of getShopfront
+final _producerProvider = rp.FutureProvider.family<Enterprise, String>((ref, id) async => ref.read(shopRepositoryProvider).getProducer(id));
 final _producerProductsProvider = rp.FutureProvider.family<List<Product>, String>((ref, id) async {
   final repo = ref.read(shopRepositoryProvider);
   final oc = (await repo.getCurrentOrderCycle())?.id ?? 'oc1';

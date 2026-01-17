@@ -11,6 +11,7 @@ class ShopRepository {
   Future<List<Enterprise>> listShops({String? query}) => _ds.listShops(query: query);
   Future<List<Enterprise>> listProducers({String? query}) => _ds.listProducers(query: query);
   Future<Enterprise> getShopfront(String id) => _ds.getShopfront(id);
+  Future<Enterprise> getProducer(String id) => _ds.getProducer(id);
   Future<List<OrderCycle>> listOrderCycles(String enterpriseId) => _ds.listOrderCycles(enterpriseId);
   Future<void> selectOrderCycle(String id) => _ds.selectOrderCycle(id);
   Future<OrderCycle?> getCurrentOrderCycle() => _ds.getCurrentOrderCycle();

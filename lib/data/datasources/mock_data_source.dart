@@ -38,8 +38,28 @@ class MockDataSource implements BaseDataSource {
 
   @override
   Future<Enterprise> getShopfront(String enterpriseId) async {
-    final data = await _loadJson('assets/mock/shop_${enterpriseId}.json');
+    // Defensive check: producer IDs start with 'p', redirect to getProducer
+    if (enterpriseId.startsWith('p')) {
+      debugPrint('MockDataSource: getShopfront called with producer ID "$enterpriseId", redirecting to getProducer');
+      return getProducer(enterpriseId);
+    }
+    final path = 'assets/mock/shop_$enterpriseId.json';
+    debugPrint('MockDataSource: Loading shopfront from $path');
+    final data = await _loadJson(path);
     return Enterprise.fromJson(data['shop'] as Map<String, dynamic>);
+  }
+
+  @override
+  Future<Enterprise> getProducer(String producerId) async {
+    debugPrint('MockDataSource: Loading producer "$producerId" from producers.json');
+    final data = await _loadJson('assets/mock/producers.json');
+    final list = (data['producers'] as List)
+        .map((e) => Enterprise.fromJson(e as Map<String, dynamic>))
+        .toList();
+    return list.firstWhere(
+      (p) => p.id == producerId,
+      orElse: () => throw Exception('Producer not found: $producerId'),
+    );
   }
 
   @override

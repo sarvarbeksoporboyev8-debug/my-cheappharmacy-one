@@ -213,7 +213,7 @@ ThemeData get lightTheme => ThemeData(
     shadowColor: LightModeColors.lightShadow.withOpacity(0.1),
     surfaceTintColor: Colors.transparent,
     centerTitle: false,
-    titleTextStyle: GoogleFonts.googleSans(
+    titleTextStyle: GoogleFonts.outfit(
       fontSize: 22,
       fontWeight: FontWeight.w400,
       color: LightModeColors.lightOnSurface,
@@ -245,7 +245,7 @@ ThemeData get lightTheme => ThemeData(
       shape: RoundedRectangleBorder(
         borderRadius: AppRadius.buttonRadius,
       ),
-      textStyle: GoogleFonts.googleSans(
+      textStyle: GoogleFonts.outfit(
         fontSize: 14,
         fontWeight: FontWeight.w500,
         letterSpacing: 0.1,
@@ -260,7 +260,7 @@ ThemeData get lightTheme => ThemeData(
       shape: RoundedRectangleBorder(
         borderRadius: AppRadius.buttonRadius,
       ),
-      textStyle: GoogleFonts.googleSans(
+      textStyle: GoogleFonts.outfit(
         fontSize: 14,
         fontWeight: FontWeight.w500,
       ),
@@ -275,7 +275,7 @@ ThemeData get lightTheme => ThemeData(
         borderRadius: AppRadius.buttonRadius,
       ),
       side: const BorderSide(color: LightModeColors.lightOutline),
-      textStyle: GoogleFonts.googleSans(
+      textStyle: GoogleFonts.outfit(
         fontSize: 14,
         fontWeight: FontWeight.w500,
       ),
@@ -289,7 +289,7 @@ ThemeData get lightTheme => ThemeData(
       shape: RoundedRectangleBorder(
         borderRadius: AppRadius.buttonRadius,
       ),
-      textStyle: GoogleFonts.googleSans(
+      textStyle: GoogleFonts.outfit(
         fontSize: 14,
         fontWeight: FontWeight.w500,
       ),
@@ -311,7 +311,7 @@ ThemeData get lightTheme => ThemeData(
   chipTheme: ChipThemeData(
     backgroundColor: LightModeColors.lightSurfaceVariant,
     selectedColor: LightModeColors.lightPrimaryContainer,
-    labelStyle: GoogleFonts.googleSans(fontSize: 14),
+    labelStyle: GoogleFonts.outfit(fontSize: 14),
     padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
     shape: RoundedRectangleBorder(
       borderRadius: AppRadius.chipRadius,
@@ -340,7 +340,7 @@ ThemeData get lightTheme => ThemeData(
       borderSide: const BorderSide(color: LightModeColors.lightError),
     ),
     contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
-    hintStyle: GoogleFonts.googleSans(
+    hintStyle: GoogleFonts.outfit(
       color: LightModeColors.lightOnSurfaceVariant,
     ),
   ),
@@ -367,7 +367,7 @@ ThemeData get lightTheme => ThemeData(
   // Snackbar
   snackBarTheme: SnackBarThemeData(
     backgroundColor: LightModeColors.lightOnSurface,
-    contentTextStyle: GoogleFonts.googleSans(color: LightModeColors.lightSurface),
+    contentTextStyle: GoogleFonts.outfit(color: LightModeColors.lightSurface),
     shape: RoundedRectangleBorder(
       borderRadius: BorderRadius.circular(8),
     ),
@@ -379,7 +379,7 @@ ThemeData get lightTheme => ThemeData(
     backgroundColor: LightModeColors.lightSurface,
     indicatorColor: LightModeColors.lightPrimaryContainer,
     labelTextStyle: WidgetStateProperty.all(
-      GoogleFonts.googleSans(fontSize: 12, fontWeight: FontWeight.w500),
+      GoogleFonts.outfit(fontSize: 12, fontWeight: FontWeight.w500),
     ),
     elevation: 0,
     surfaceTintColor: Colors.transparent,
@@ -440,7 +440,7 @@ ThemeData get darkTheme => ThemeData(
     shadowColor: DarkModeColors.darkShadow.withOpacity(0.3),
     surfaceTintColor: Colors.transparent,
     centerTitle: false,
-    titleTextStyle: GoogleFonts.googleSans(
+    titleTextStyle: GoogleFonts.outfit(
       fontSize: 22,
       fontWeight: FontWeight.w400,
       color: DarkModeColors.darkOnSurface,
@@ -470,7 +470,7 @@ ThemeData get darkTheme => ThemeData(
       shape: RoundedRectangleBorder(
         borderRadius: AppRadius.buttonRadius,
       ),
-      textStyle: GoogleFonts.googleSans(
+      textStyle: GoogleFonts.outfit(
         fontSize: 14,
         fontWeight: FontWeight.w500,
         letterSpacing: 0.1,
@@ -484,7 +484,7 @@ ThemeData get darkTheme => ThemeData(
       shape: RoundedRectangleBorder(
         borderRadius: AppRadius.buttonRadius,
       ),
-      textStyle: GoogleFonts.googleSans(
+      textStyle: GoogleFonts.outfit(
         fontSize: 14,
         fontWeight: FontWeight.w500,
       ),
@@ -498,7 +498,7 @@ ThemeData get darkTheme => ThemeData(
         borderRadius: AppRadius.buttonRadius,
       ),
       side: const BorderSide(color: DarkModeColors.darkOutline),
-      textStyle: GoogleFonts.googleSans(
+      textStyle: GoogleFonts.outfit(
         fontSize: 14,
         fontWeight: FontWeight.w500,
       ),
@@ -511,7 +511,7 @@ ThemeData get darkTheme => ThemeData(
       shape: RoundedRectangleBorder(
         borderRadius: AppRadius.buttonRadius,
       ),
-      textStyle: GoogleFonts.googleSans(
+      textStyle: GoogleFonts.outfit(
         fontSize: 14,
         fontWeight: FontWeight.w500,
       ),
@@ -531,7 +531,7 @@ ThemeData get darkTheme => ThemeData(
   chipTheme: ChipThemeData(
     backgroundColor: DarkModeColors.darkSurfaceVariant,
     selectedColor: DarkModeColors.darkPrimaryContainer,
-    labelStyle: GoogleFonts.googleSans(fontSize: 14),
+    labelStyle: GoogleFonts.outfit(fontSize: 14),
     padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
     shape: RoundedRectangleBorder(
       borderRadius: AppRadius.chipRadius,
@@ -559,7 +559,7 @@ ThemeData get darkTheme => ThemeData(
       borderSide: const BorderSide(color: DarkModeColors.darkError),
     ),
     contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
-    hintStyle: GoogleFonts.googleSans(
+    hintStyle: GoogleFonts.outfit(
       color: DarkModeColors.darkOnSurfaceVariant,
     ),
   ),
@@ -583,7 +583,7 @@ ThemeData get darkTheme => ThemeData(
   
   snackBarTheme: SnackBarThemeData(
     backgroundColor: DarkModeColors.darkOnSurface,
-    contentTextStyle: GoogleFonts.googleSans(color: DarkModeColors.darkSurface),
+    contentTextStyle: GoogleFonts.outfit(color: DarkModeColors.darkSurface),
     shape: RoundedRectangleBorder(
       borderRadius: BorderRadius.circular(8),
     ),
@@ -594,7 +594,7 @@ ThemeData get darkTheme => ThemeData(
     backgroundColor: DarkModeColors.darkSurface,
     indicatorColor: DarkModeColors.darkPrimaryContainer,
     labelTextStyle: WidgetStateProperty.all(
-      GoogleFonts.googleSans(fontSize: 12, fontWeight: FontWeight.w500),
+      GoogleFonts.outfit(fontSize: 12, fontWeight: FontWeight.w500),
     ),
     elevation: 0,
     surfaceTintColor: Colors.transparent,
@@ -623,66 +623,66 @@ TextTheme _buildTextTheme(Brightness brightness) {
       : DarkModeColors.darkOnSurface;
   
   return TextTheme(
-    displayLarge: GoogleFonts.googleSans(
+    displayLarge: GoogleFonts.outfit(
       fontSize: FontSizes.displayLarge,
       fontWeight: FontWeight.w400,
       letterSpacing: -0.25,
       color: color,
     ),
-    displayMedium: GoogleFonts.googleSans(
+    displayMedium: GoogleFonts.outfit(
       fontSize: FontSizes.displayMedium,
       fontWeight: FontWeight.w400,
       color: color,
     ),
-    displaySmall: GoogleFonts.googleSans(
+    displaySmall: GoogleFonts.outfit(
       fontSize: FontSizes.displaySmall,
       fontWeight: FontWeight.w400,
       color: color,
     ),
-    headlineLarge: GoogleFonts.googleSans(
+    headlineLarge: GoogleFonts.outfit(
       fontSize: FontSizes.headlineLarge,
       fontWeight: FontWeight.w400,
       letterSpacing: -0.5,
       color: color,
     ),
-    headlineMedium: GoogleFonts.googleSans(
+    headlineMedium: GoogleFonts.outfit(
       fontSize: FontSizes.headlineMedium,
       fontWeight: FontWeight.w400,
       color: color,
     ),
-    headlineSmall: GoogleFonts.googleSans(
+    headlineSmall: GoogleFonts.outfit(
       fontSize: FontSizes.headlineSmall,
       fontWeight: FontWeight.w400,
       color: color,
     ),
-    titleLarge: GoogleFonts.googleSans(
+    titleLarge: GoogleFonts.outfit(
       fontSize: FontSizes.titleLarge,
       fontWeight: FontWeight.w500,
       color: color,
     ),
-    titleMedium: GoogleFonts.googleSans(
+    titleMedium: GoogleFonts.outfit(
       fontSize: FontSizes.titleMedium,
       fontWeight: FontWeight.w500,
       color: color,
     ),
-    titleSmall: GoogleFonts.googleSans(
+    titleSmall: GoogleFonts.outfit(
       fontSize: FontSizes.titleSmall,
       fontWeight: FontWeight.w500,
       color: color,
     ),
-    labelLarge: GoogleFonts.googleSans(
+    labelLarge: GoogleFonts.outfit(
       fontSize: FontSizes.labelLarge,
       fontWeight: FontWeight.w500,
       letterSpacing: 0.1,
       color: color,
     ),
-    labelMedium: GoogleFonts.googleSans(
+    labelMedium: GoogleFonts.outfit(
       fontSize: FontSizes.labelMedium,
       fontWeight: FontWeight.w500,
       letterSpacing: 0.5,
       color: color,
     ),
-    labelSmall: GoogleFonts.googleSans(
+    labelSmall: GoogleFonts.outfit(
       fontSize: FontSizes.labelSmall,
       fontWeight: FontWeight.w500,
       letterSpacing: 0.5,

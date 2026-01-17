@@ -2,10 +2,17 @@
   "shops": [
     {
       "id": "1",
+<<<<<<< HEAD
       "name": "CheapPharmacy Downtown",
       "logo_url": null,
       "short_description": "Affordable prescriptions & health essentials",
       "long_description": "Your neighborhood pharmacy with the lowest prices on prescriptions, vitamins, and health products.",
+=======
+      "name": "FreshBite Market",
+      "logo_url": null,
+      "short_description": "Local produce & pantry staples",
+      "long_description": "Neighborhood grocery featuring farm-fresh fruits, vegetables, and everyday essentials.",
+>>>>>>> fd01fa2 (Sync local my-dreamflow to repo)
       "pickup": true,
       "delivery": true,
       "orders_close_at": "2026-12-31T23:59:00Z",
@@ -14,10 +21,17 @@
     },
     {
       "id": "2",
+<<<<<<< HEAD
       "name": "HealthMart Express",
       "logo_url": null,
       "short_description": "Quick prescriptions & wellness products",
       "long_description": "Fast service pharmacy with drive-through pickup available.",
+=======
+      "name": "Urban Harvest Co‑op",
+      "logo_url": null,
+      "short_description": "Community grocer & bulk goods",
+      "long_description": "Co‑op market with sustainable bulk, seasonal produce, and local goods.",
+>>>>>>> fd01fa2 (Sync local my-dreamflow to repo)
       "pickup": true,
       "delivery": false,
       "orders_close_at": "2026-12-31T23:59:00Z",
@@ -26,10 +40,17 @@
     },
     {
       "id": "3",
+<<<<<<< HEAD
       "name": "Wellness Plus Pharmacy",
       "logo_url": null,
       "short_description": "Holistic health & natural remedies",
       "long_description": "Combining traditional pharmacy with natural health solutions.",
+=======
+      "name": "Green Basket Grocery",
+      "logo_url": null,
+      "short_description": "Organic snacks & fresh greens",
+      "long_description": "Small-format grocer focused on organic and seasonal produce.",
+>>>>>>> fd01fa2 (Sync local my-dreamflow to repo)
       "pickup": true,
       "delivery": true,
       "orders_close_at": "2026-12-31T23:59:00Z",
@@ -38,10 +59,17 @@
     },
     {
       "id": "4",
+<<<<<<< HEAD
       "name": "MediSave Drugs",
       "logo_url": null,
       "short_description": "Generic medications at discount prices",
       "long_description": "Specializing in affordable generic alternatives to brand-name drugs.",
+=======
+      "name": "Thrifty Threads Outlet",
+      "logo_url": null,
+      "short_description": "Discount apparel & basics",
+      "long_description": "Everyday clothing and essentials at outlet prices.",
+>>>>>>> fd01fa2 (Sync local my-dreamflow to repo)
       "pickup": true,
       "delivery": false,
       "orders_close_at": "2026-12-31T23:59:00Z",
@@ -50,10 +78,17 @@
     },
     {
       "id": "5",
+<<<<<<< HEAD
       "name": "Family Care Pharmacy",
       "logo_url": null,
       "short_description": "Trusted family pharmacy since 1985",
       "long_description": "Personalized service for all your family's health needs.",
+=======
+      "name": "Daily Essentials Corner",
+      "logo_url": null,
+      "short_description": "Convenience & home goods",
+      "long_description": "Grab-and-go snacks, beverages, and household basics.",
+>>>>>>> fd01fa2 (Sync local my-dreamflow to repo)
       "pickup": true,
       "delivery": true,
       "orders_close_at": "2026-12-31T23:59:00Z",
@@ -62,10 +97,17 @@
     },
     {
       "id": "6",
+<<<<<<< HEAD
       "name": "QuickRx Pharmacy",
       "logo_url": null,
       "short_description": "Same-day prescription delivery",
       "long_description": "Get your medications delivered within hours.",
+=======
+      "name": "Street Food Collective",
+      "logo_url": null,
+      "short_description": "Local eats, rotating vendors",
+      "long_description": "A hub for neighborhood food pop‑ups and weekly specials.",
+>>>>>>> fd01fa2 (Sync local my-dreamflow to repo)
       "pickup": true,
       "delivery": true,
       "orders_close_at": "2026-12-31T23:59:00Z",
@@ -74,10 +116,17 @@
     },
     {
       "id": "7",
+<<<<<<< HEAD
       "name": "Sunset Health Pharmacy",
       "logo_url": null,
       "short_description": "Serving the Sunset district",
       "long_description": "Community pharmacy with multilingual staff.",
+=======
+      "name": "Sunset Produce Stand",
+      "logo_url": null,
+      "short_description": "Seasonal fruits & veggies",
+      "long_description": "Weekend stand featuring produce from nearby farms.",
+>>>>>>> fd01fa2 (Sync local my-dreamflow to repo)
       "pickup": true,
       "delivery": false,
       "orders_close_at": "2026-12-31T23:59:00Z",
@@ -86,10 +135,17 @@
     },
     {
       "id": "8",
+<<<<<<< HEAD
       "name": "Mission Discount Pharmacy",
       "logo_url": null,
       "short_description": "Best prices in the Mission",
       "long_description": "Affordable healthcare products for the community.",
+=======
+      "name": "Mission Surplus Hub",
+      "logo_url": null,
+      "short_description": "Overstock deals & rescued goods",
+      "long_description": "Household items and shelf‑stable foods at surplus prices.",
+>>>>>>> fd01fa2 (Sync local my-dreamflow to repo)
       "pickup": true,
       "delivery": true,
       "orders_close_at": "2026-12-31T23:59:00Z",

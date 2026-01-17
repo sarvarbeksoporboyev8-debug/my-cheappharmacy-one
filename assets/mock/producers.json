@@ -2,9 +2,15 @@
   "producers": [
     {
       "id": "p1",
+<<<<<<< HEAD
       "name": "BioHealth Labs",
       "short_description": "Organic supplements manufacturer",
       "long_description": "Premium organic vitamins and supplements made in California.",
+=======
+      "name": "Sunrise Orchards",
+      "short_description": "Family‑run apple & pear farm",
+      "long_description": "Seasonal fruit grown with sustainable practices.",
+>>>>>>> fd01fa2 (Sync local my-dreamflow to repo)
       "pickup": false,
       "delivery": true,
       "lat": 37.7721,
@@ -12,9 +18,15 @@
     },
     {
       "id": "p2",
+<<<<<<< HEAD
       "name": "NatureCure Remedies",
       "short_description": "Herbal medicine producer",
       "long_description": "Traditional herbal remedies using sustainably sourced ingredients.",
+=======
+      "name": "Blue Ocean Fisheries",
+      "short_description": "Line‑caught seafood cooperative",
+      "long_description": "Fresh, responsibly harvested fish and shellfish.",
+>>>>>>> fd01fa2 (Sync local my-dreamflow to repo)
       "pickup": true,
       "delivery": true,
       "lat": 37.7801,
@@ -22,9 +34,15 @@
     },
     {
       "id": "p3",
+<<<<<<< HEAD
       "name": "PureVita Supplements",
       "short_description": "Vitamin & mineral supplements",
       "long_description": "High-quality vitamins at wholesale prices.",
+=======
+      "name": "Riverside Grain Mill",
+      "short_description": "Stone‑milled flours & grains",
+      "long_description": "Heritage wheats and freshly milled flours.",
+>>>>>>> fd01fa2 (Sync local my-dreamflow to repo)
       "pickup": false,
       "delivery": true,
       "lat": 37.7655,
@@ -32,9 +50,15 @@
     },
     {
       "id": "p4",
+<<<<<<< HEAD
       "name": "MedEquip Direct",
       "short_description": "Medical equipment supplier",
       "long_description": "Home medical equipment and mobility aids.",
+=======
+      "name": "Urban Mushroom Farm",
+      "short_description": "Gourmet oyster & shiitake",
+      "long_description": "Locally grown mushrooms for restaurants and home cooks.",
+>>>>>>> fd01fa2 (Sync local my-dreamflow to repo)
       "pickup": true,
       "delivery": true,
       "lat": 37.7912,
@@ -42,9 +66,15 @@
     },
     {
       "id": "p5",
+<<<<<<< HEAD
       "name": "Wellness Essentials Co",
       "short_description": "Health & wellness products",
       "long_description": "Essential oils, aromatherapy, and wellness accessories.",
+=======
+      "name": "Meadow Lane Dairy",
+      "short_description": "Small‑batch milk & cheese",
+      "long_description": "Pasture‑raised dairy from a third‑generation farm.",
+>>>>>>> fd01fa2 (Sync local my-dreamflow to repo)
       "pickup": true,
       "delivery": false,
       "lat": 37.7558,
@@ -52,9 +82,15 @@
     },
     {
       "id": "p6",
+<<<<<<< HEAD
       "name": "GeneriMed Wholesale",
       "short_description": "Generic drug distributor",
       "long_description": "Bulk generic medications for pharmacies.",
+=======
+      "name": "Citrus Grove Collective",
+      "short_description": "Seasonal oranges & lemons",
+      "long_description": "Co‑op of small citrus growers.",
+>>>>>>> fd01fa2 (Sync local my-dreamflow to repo)
       "pickup": true,
       "delivery": true,
       "lat": 37.7789,

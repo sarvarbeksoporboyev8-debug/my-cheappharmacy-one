@@ -64,6 +64,8 @@ class _AccountPageState extends rp.ConsumerState<AccountPage> {
           AccountListTile(icon: Icons.local_offer_outlined, title: 'Offers', subtitle: 'Offers you made and received', onTap: () => context.push('${AppRoutes.account}/offers')),
           const Divider(height: 0),
           AccountListTile(icon: Icons.receipt_long, title: 'Orders / Reservations', subtitle: 'Your reservations and purchases', onTap: () => context.push('${AppRoutes.account}/orders')),
+          const Divider(height: 0),
+          AccountListTile(icon: Icons.delivery_dining, title: 'Driver Mode', subtitle: 'Earn money delivering orders', onTap: () => context.push(AppRoutes.driverMode)),
         ]),
 
         // Preferences
